@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    background-color: #f5f5f5;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 60px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    font-size: 12px;
+}
+
+.nav-links a {
+    padding-bottom: 15px;
+}
+
+.nav-links .active {
+    font-weight: bolder;
+    border-bottom: 2px solid #222;
+}
+
+.btn-outline {
+    padding: 10px 28px;
+    font-size: 12px;
+    border: 1px solid #555;
+    border-radius: 10px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 60px 0 60px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.hero h1 {
+    font-size: 42px;
+    line-height: 1.5;
+}
+
+.blue {
+    color: #2b8ee6;
+}
+
+.hero p {
+    margin-top: 28px;
+    font-size: 14px;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.btn-primary {
+    background-color: #2b8ee6;
+    color: white;
+    padding: 12px 24px;
+    font-size: 12px;
+}
+
+.watch {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+}
+
+
+.hero-img {
+    width: 48%;
+    max-width: 600px;
+    height: auto;
+}
+
+
+.about {
+    max-width: 650px;
+    margin: 0 auto;          
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.about p {
+    font-size: 13px;
+    line-height: 2;
+}
+
+
+.services {
+    padding: 0 60px 60px 60px;
+}
+
+.services-intro h2 {
+    font-size: 26px;
+}
+
+.services-intro p {
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.service-text {
+    max-width: 320px;
+}
+
+.service-text h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.service-text p {
+    font-size: 13px;
+    line-height: 1.9;
+    margin-bottom: 28px;
+}
+
+.service-item img {
+    width: 50%;
+    max-width: 560px;
+    height: auto;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2b8ee6;
+    margin: 0 40px;
+    padding: 20px 120px 20px 50px;
+}
+
+.cta-image img {
+    width: 280px;
+    height: auto;
+}
+
+.cta-text h2 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.btn-white {
+    display: inline-block;
+    margin-top: 12px;
+    background-color: #fff;
+    padding: 10px 16px;
+    font-size: 12px;
+}
+
+/* consult */
+
+.consult {
+    margin: 80px 40px;
+    padding: 30px 20px;
+    border: 1px solid #7bb8ee;
+}
+
+.consult h3 {
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.consult p {
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.form-row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.field {
+    flex: 1;                 /* both fields share the row equally */
+}
+
+.field span {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.box {
+    height: 44px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;     /* centres the text vertically */
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+.submit-box {
+    width: 280px;
+    height: 48px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b8ee6;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+/* ---------- FOOTER ---------- */
+.footer {
+    margin: 0 40px;
+    padding-top: 40px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer-brand p {
+    margin-top: 16px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.9;
+}
+
+.brand-icon.big {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-cols {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-cols li {
+    font-size: 11px;
+    margin-bottom: 14px;
+}
+
+.footer-cols .col-title {
+    font-weight: 700;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 10px;
+    color: #888;
+}

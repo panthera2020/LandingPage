@@ -1,0 +1,18 @@
+html{
+    background-color: beige;
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+    font-weight: bolder;
+    list-style: none;
+
+}
+.one{
+    background-color: aqua;
+}
+
+.two{
+    background-color: chocolate;
+}

@@ -178,7 +178,7 @@ ul {
 }
 
 .cta-text h2 {
-    color: #fff;
+    color: white;
     font-size: 20px;
     line-height: 1.9;
 }
@@ -186,12 +186,10 @@ ul {
 .btn-white {
     display: inline-block;
     margin-top: 12px;
-    background-color: #fff;
+    background-color: white;
     padding: 10px 16px;
     font-size: 12px;
 }
-
-/* consult */
 
 .consult {
     margin: 80px 40px;
@@ -216,7 +214,7 @@ ul {
 }
 
 .field {
-    flex: 1;                 /* both fields share the row equally */
+    flex: 1;              
 }
 
 .field span {
@@ -229,7 +227,7 @@ ul {
     height: 44px;
     padding: 0 12px;
     display: flex;
-    align-items: center;     /* centres the text vertically */
+    align-items: center;   
     font-size: 12px;
     border: 1px solid black;
 }
@@ -242,8 +240,8 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #2b8ee6;
-    color: #fff;
-    font-weight: 700;
+    color: white;
+    font-weight: 700px;
 }
 
 
